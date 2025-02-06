@@ -24,16 +24,17 @@ const toggleMenu = ()=> {
           } md:w-auto w-full flex items-center px-5`}>
           <ul className="flex items-center flex-col md:flex-row gap-10 ">
             <li>
-              <a href="" className="text-gray-600 hover:text-gray-900">Accueil</a>
+              <a href="#" className="text-gray-600 hover:text-gray-900">Accueil</a>
             </li>
             <li>
-              <a href="" className="text-gray-600 hover:text-gray-900">Réservation</a>
+              <a href="#about" className="text-gray-600 hover:text-gray-900">A propos</a>
             </li>
             <li>
-              <a href="" className="text-gray-600 hover:text-gray-900">A propos</a>
+              <a href="#book" className="text-gray-600 hover:text-gray-900">Réservation</a>
             </li>
+           
             <li>
-              <a href="" className="text-gray-600 hover:text-gray-900">Contact</a>
+              <a href="#contact" className="text-gray-600 hover:text-gray-900">Contact</a>
             </li>
           </ul>
         </div>
