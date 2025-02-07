@@ -1,9 +1,8 @@
 import React from 'react'
-
 const Hero = () => {
   return (
     <section 
-    className='bg-[url("src/assets/hero-1.jpeg")] bg-cover bg-center h-[600px] flex justify-center items-center'>
+    className='bg-[url("../assets/hero-1.jpeg")] bg-cover bg-center h-[600px] flex justify-center items-center'>
       
     <div className="text-center text-white ">
       <h1 className='text-2xl md:text-6xl font-bold'>Welcome sur Horizon Hôtel</h1>
