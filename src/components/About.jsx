@@ -1,5 +1,5 @@
 import React from 'react'
-
+import heroImage from "../assets/hero-2.jpeg";
 const About = () => {
   return (
     <section id='about' className='flex-row p-8 md:flex md:justify-between'>
@@ -7,7 +7,7 @@ const About = () => {
 
         {/* Gauche */}
         <div className="">
-           <img className='rounded md:w-[1000px]' src="./hero-2.jpeg" alt="ogo" />
+           <img className='rounded md:w-[1000px]' src={heroImage} alt="ogo" />
         </div>
 
         {/* droite */}
