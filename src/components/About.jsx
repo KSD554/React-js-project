@@ -7,7 +7,7 @@ const About = () => {
 
         {/* Gauche */}
         <div className="">
-           <img className='rounded md:w-[1000px]' src="src/assets/hero-2.jpeg" alt="ogo" />
+           <img className='rounded md:w-[1000px]' src="/hero-2.jpeg" alt="ogo" />
         </div>
 
         {/* droite */}
