@@ -1,8 +1,11 @@
-import React from 'react'
+import hImage from "../assets/hero-1.jpeg";
 const Hero = () => {
   return (
     <section 
-    className='bg-[url("../assets/hero-1.jpeg")] bg-cover bg-center h-[600px] flex justify-center items-center'>
+    className='bg-[url("../assets/hero-1.jpeg")] bg-cover bg-center h-[600px] flex justify-center items-center
+    '
+    style={{ backgroundImage: `url(${hImage})` }}
+    >
       
     <div className="text-center text-white ">
       <h1 className='text-2xl md:text-6xl font-bold'>Welcome sur Horizon Hôtel</h1>
